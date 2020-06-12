@@ -401,11 +401,22 @@ type Image struct {
 type VMIdentity string
 
 type OSDisk struct {
-	OSType      string      `json:"osType"`
-	ManagedDisk ManagedDisk `json:"managedDisk"`
-	DiskSizeGB  int32       `json:"diskSizeGB"`
+	OSType string `json:"osType"`
+	//ManagedDisk        ManagedDisk             `json:"managedDisk"`
+	ManagedDisk ManagedDiskParameters `json:"managedDisk,omitempty"`
+	DiskSizeGB  int32                 `json:"diskSizeGB"`
 }
 
-type ManagedDisk struct {
-	StorageAccountType string `json:"storageAccountType"`
+type ManagedDiskParameters struct {
+	// StorageAccountType - Specifies the storage account type for the managed disk. NOTE: UltraSSD_LRS can only be used with data disks, it cannot be used with OS Disk. Possible values include: 'StorageAccountTypesStandardLRS', 'StorageAccountTypesPremiumLRS', 'StorageAccountTypesStandardSSDLRS', 'StorageAccountTypesUltraSSDLRS'
+	StorageAccountType string `json:"storageAccountType,omitempty"`
+	// DiskEncryptionSet - Specifies the customer managed disk encryption set resource id for the managed disk.
+	DiskEncryptionSet *DiskEncryptionSetParameters `json:"diskEncryptionSet,omitempty"`
+	// ID - Resource Id
+	ID *string `json:"id,omitempty"`
+}
+
+type DiskEncryptionSetParameters struct {
+	// ID - Resource Id
+	ID *string `json:"id,omitempty"`
 }

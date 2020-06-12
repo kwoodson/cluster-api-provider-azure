@@ -1,8 +1,13 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.38.0/go.mod h1:990N+gfupTy94rShfmMCWGDn0LpTmnzTp2qbd1dvSRU=
+github.com/Azure/azure-sdk-for-go v0.2.0-beta h1:wYBqYNMWr0WL2lcEZi+dlK9n+N0wJ0Pjs4BKeOnDjfQ=
 github.com/Azure/azure-sdk-for-go v32.5.0+incompatible h1:Hn/DsObfmw0M7dMGS/c0MlVrJuGFzHzOpBWL89acR68=
 github.com/Azure/azure-sdk-for-go v32.5.0+incompatible/go.mod h1:9XXNKU+eRnpl9moKnB4QOLf1HestfXbmab5FXxiDBjc=
+github.com/Azure/azure-sdk-for-go v42.0.0+incompatible h1:yz6sFf5bHZ+gEOQVuK5JhPqTTAmv+OvSLSaqgzqaCwY=
+github.com/Azure/azure-sdk-for-go v42.0.0+incompatible/go.mod h1:9XXNKU+eRnpl9moKnB4QOLf1HestfXbmab5FXxiDBjc=
+github.com/Azure/azure-sdk-for-go v43.1.0+incompatible h1:m6EAp2Dmb8/t+ToZ2jtmvdp+JBwsdfSlZuBV31WGLGQ=
+github.com/Azure/azure-sdk-for-go v43.1.0+incompatible/go.mod h1:9XXNKU+eRnpl9moKnB4QOLf1HestfXbmab5FXxiDBjc=
 github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 h1:w+iIsaOQNcT7OZ575w+acHgRric5iCyQh+xv+KJ4HB8=
 github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78/go.mod h1:LmzpDX56iTiv29bbRTIsUNlaFfuhWRQBWjQdVyAevI8=
 github.com/Azure/go-autorest/autorest v0.9.0/go.mod h1:xyHB1BMZT0cuDHU7I0+g046+BFDTQ8rEZB0s4Yfa6bI=
@@ -339,6 +344,9 @@ github.com/openshift/api v0.0.0-20200424083944-0422dc17083e/go.mod h1:VnbEzX8SAa
 github.com/openshift/build-machinery-go v0.0.0-20200211121458-5e3d6e570160/go.mod h1:1CkcsT3aVebzRBzVTSbiKSkJMsC/CASqxesfqEMfJEc=
 github.com/openshift/build-machinery-go v0.0.0-20200424080330-082bf86082cc/go.mod h1:1CkcsT3aVebzRBzVTSbiKSkJMsC/CASqxesfqEMfJEc=
 github.com/openshift/client-go v0.0.0-20200326155132-2a6cd50aedd0/go.mod h1:uUQ4LClRO+fg5MF/P6QxjMCb1C9f7Oh4RKepftDnEJE=
+github.com/openshift/cluster-api-provider-azure v0.1.0-alpha.3 h1:YwsV8i7hNZN9V+PWOm9TBtlfQUfB8GRruRumQMWlDs8=
+github.com/openshift/cluster-api-provider-azure v0.1.0-alpha.4 h1:YwsV8i7hNZN9V+PWOm9TBtlfQUfB8GRruRumQMWlDs8=
+github.com/openshift/cluster-api-provider-azure v0.1.0-alpha.4/go.mod h1:ZqsAaVozmxwmfN3IR504YEYEk+UP6uGkrbidC6njvqU=
 github.com/openshift/library-go v0.0.0-20200512120242-21a1ff978534/go.mod h1:2kWwXTkpoQJUN3jZ3QW88EIY1hdRMqxgRs2hheEW/pg=
 github.com/openshift/machine-api-operator v0.2.1-0.20200527204437-14e5e0c7d862 h1:uI/6lz/E7ngKe0Fy0wy/wOpLuoS8eJlmoyuLLYfK1bs=
 github.com/openshift/machine-api-operator v0.2.1-0.20200527204437-14e5e0c7d862/go.mod h1:YKEQMHjXzrzm4fQGTyHBafFfQ/Yq/FrV+1YcGdPCp+0=
