@@ -36,7 +36,7 @@ func (s *Service) Get(ctx context.Context, spec azure.Spec) (interface{}, error)
 	if !ok {
 		return zones, errors.New("invalid availability zones specification")
 	}
-	res, err := s.Client.List(ctx)
+	res, err := s.Client.List(ctx, "")
 	if err != nil {
 		return zones, err
 	}
